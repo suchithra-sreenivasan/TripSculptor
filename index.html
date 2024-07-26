@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripSculptor</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./Images/logo.png" alt="" width="100px" height="80px">TripSculptor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-underline  ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Packages</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Destination</a></li>
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+              <li><a class="dropdown-item" href="#">Travel Guides</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <div id="btn" class="px-5">
+          <button class="btn viewbtn" type="submit">Register
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--closing-nav-->
+
+  <!-- main -->
+  <div id="main">
+    <h1>Millions Of Experiences. One <br>Simple Search</h1>
+    <p>Find what makes you happy anytime, anywhere.... </p>
+    <div id="search">
+      <form class="search-bar">
+        <input type="text" placeholder="Search for Destination" name="q">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+  </div>
+  <!-- closing-main -->
+
+
+  <!-- ABOUT US -->
+  <div id="aboutus">
+    <!-- main-row -->
+    <div class="row w-100 py-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-5 px-4 ">
+        <div id="img-hr1" class="mb-2"></div>
+        <div>
+          <img src="./Images/about.jpg" alt="no image" width="100%" height="400px"
+            class="text-align-center justify-content-center">
+        </div>
+        <div id="img-hr2" class="mt-2 ms-5"></div>
+      </div>
+      <div class="col-md-1"></div>
+      <!-- right-col -->
+      <div class="col-md-5 px-5">
+        <div class="row ">
+          <h1 class="mt-md-0 mt-5 ">ABOUT US</h1>
+          <div id="about-hr1"></div>
+          <div id="about-hr2"></div>
+          <h3>Welcome to TripSculptor</h3>
+          <p>TripSculptor was born out of a passion for exploration and a desire to make travel planning effortless and
+            enjoyable. Founded by a team of seasoned travelers and dedicated planners, we are committed to turning your
+            travel dreams into reality with personalized, seamless, and memorable experiences.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">First Class Flights</span></i><br>
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">Handpicked Hotels</span></i><br>
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">5 Star Accommodations</span></i><br>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">Latest Model Vehicles</span></i><br>
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">150 Premium City Tours</span></i><br>
+            <i class="fa-solid fa-arrow-right"><span class="ms-3">24/7 Service</span></i><br>
+          </div>
+        </div>
+        <div id="btn" class="px-5 pt-5">
+          <button class="btn ab-btn" type="submit">Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- closing-aboutus -->
+
+  <!-- services -->
+  <div class="container-fluid mt-5 mb-5" id="services">
+    <!-- cards -->
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <h3 class="text-center mt-5">SERVICES</h3>
+        <div id="service-hr1"></div>
+        <h1 class="mt-4 text-center">Our Services</h1>
+        <!-- row -->
+        <div class="row w-100 mt-5">
+          <!-- 1st card -->
+          <div class="col-md-3 col-sm-6 p-4 wow fadeInUp" data-wow-delay="0.3s"">
+                <div class=" card mb-3 " style=" width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-solid fa-globe fa-2x"></i></h5>
+              <h5 class="card-title">WorldWide Tours</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore quibusdam
+                dignissimos beatae obcaecati ex sint, commodi accusamus tempore, voluptatibus dolores aliquam vel fugit
+                quam! Architecto culpa totam facere cupiditate.</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- 2nd card -->
+        <div class="col-md-3 col-sm-6 p-4 wow fadeInUp" data-wow-delay="0.3s"">
+                <div class=" card mb-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fa-solid fa-hotel fa-2x"></i></h5>
+            <h5 class="card-title">Hotel Reservation</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore quibusdam
+              dignissimos beatae obcaecati ex sint, commodi accusamus tempore, voluptatibus dolores aliquam vel fugit
+              quam! Architecto culpa totam facere cupiditate.</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd card -->
+      <div class="col-md-3 col-sm-6 p-4 wow fadeInUp" data-wow-delay="0.3s"">
+                <div class=" card mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa-solid fa-user fa-2x"></i></h5>
+          <h5 class="card-title">Travel Guides</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore quibusdam
+            dignissimos beatae obcaecati ex sint, commodi accusamus tempore, voluptatibus dolores aliquam vel fugit
+            quam! Architecto culpa totam facere cupiditate.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3 col-sm-6 p-4 wow fadeInUp" data-wow-delay="0.3s">
+      <div class="card  mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa-solid fa-gear fa-2x"></i></h5>
+          <h5 class="card-title">Event Management</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolore quibusdam
+            dignissimos beatae obcaecati ex sint, commodi accusamus tempore, voluptatibus dolores aliquam vel fugit
+            quam! Architecto culpa totam facere cupiditate.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-1"></div>
+  </div>
+  </div>
+  <!-- closing-services -->
+
+  <!-- Destination Start -->
+  <div id="destination" class="pt-5 pb-5">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <h3 class="text-center">DESTINATION </h3>
+        <div class="destin-hr"></div>
+        <h1 class="text-center">Popular Destination</h1>
+        <!-- img-row -->
+        <div class="row w-100 mt-5">
+          <div class="col-md-6 ">
+            <img src="./Images/destin1.jpg" alt="" width="100%" height="600px" class="mb-2 mb-md-0">
+          </div>
+          <div class="col-md-6">
+            <img src="./Images/destin2 (3).jpg" alt="" width="100%" height="300px">
+            <img src="./Images/destin2 (6).jpg" alt="" width="100%" height="300px" class="mt-2">
+          </div>
+        </div>
+        <div id="destin-btn" class="mt-5">
+          <button class="btn ab-btn" type="submit">View More
+          </button>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </div>
+  <!-- closing Destination Start -->
+
+  <!-- Packages -->
+  <div id="packages" class="pt-5  pb-2 container-fluid">
+    <h3 class="text-center">PACKAGES</h3>
+    <div class="pack-hr"></div>
+    <h1 class="text-center">Awesome Packages</h1>
+    <div class="row w-100  g-4 justify-content-center">
+      <!-- first-card -->
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="package-item">
+          <div class="overflow-hidden">
+            <img class="img-fluid" src="./Images/package-boat.jpg" alt="no image">
+          </div>
+          <div class="d-flex border-bottom">
+            <small class="flex-fill text-center border-end py-2"><i
+                class="fa fa-map-marker-alt text-primary me-2"></i>Indonesia</small>
+            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3
+              days</small>
+
+          </div>
+          <div class="text-center p-4">
+            <h3 class="mb-0">$179.00</h3>
+            <div class="mb-3">
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus qui quas numquam repellendus
+              recusandae, omnis odit adipisci, aut sapiente porro natus esse minus nostrum eius nam dolor? Mollitia,
+              reprehenderit iusto!</p>
+            <div class="d-flex justify-content-center mb-2">
+
+              <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0;">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div><!--closing first card-->
+
+      <!-- second card -->
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="package-item">
+          <div class="overflow-hidden">
+            <img class="img-fluid" src="./Images/Indonesia-package.jpg" alt="no image">
+          </div>
+          <div class="d-flex border-bottom">
+            <small class="flex-fill text-center border-end py-2"><i
+                class="fa fa-map-marker-alt text-primary me-2"></i>Thailand</small>
+            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3
+              days</small>
+
+          </div>
+          <div class="text-center p-4">
+            <h3 class="mb-0">$150.00</h3>
+            <div class="mb-3">
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus qui quas numquam repellendus
+              recusandae, omnis odit adipisci, aut sapiente porro natus esse minus nostrum eius nam dolor? Mollitia,
+              reprehenderit iusto!</p>
+            <div class="d-flex justify-content-center mb-2">
+
+              <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0;">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div><!--closing second card-->
+
+      <!-- third card -->
+      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="package-item">
+          <div class="overflow-hidden">
+            <img class="img-fluid" src="./Images/mala-package.png" alt="">
+          </div>
+          <div class="d-flex border-bottom">
+            <small class="flex-fill text-center border-end py-2"><i
+                class="fa fa-map-marker-alt text-primary me-2"></i>Thailand</small>
+            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3
+              days</small>
+
+          </div>
+          <div class="text-center p-4">
+            <h3 class="mb-0">$190.00</h3>
+            <div class="mb-3">
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+              <small class="fa fa-star text-primary"></small>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus qui quas numquam repellendus
+              recusandae, omnis odit adipisci, aut sapiente porro natus esse minus nostrum eius nam dolor? Mollitia,
+              reprehenderit iusto!</p>
+            <div class="d-flex justify-content-center mb-2">
+
+              <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0;">Book Now</a>
+            </div>
+          </div>
+        </div><!--closing third card-->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- booking -->
+
+  <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+      <div class="booking p-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-md-6 booking-info">
+            <h6 class=" text-uppercase">Booking</h6>
+            <h1 class="mb-4">Online Booking</h1>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vitae pariatur est
+              quasi vel! Vel illum quo perspiciatis, ratione recusandae temporibus ut libero beatae ex aperiam fuga,
+              aliquid cumque velit.</p>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae aspernatur saepe
+              reprehenderit quisquam vel quos dolores necessitatibus ab odit mollitia officia autem, facere magni
+              voluptatem magnam facilis alias laudantium!</p>
+            <div id="btn" class="px-5 pt-5">
+              <button class="btn ab-btn" type="submit">Read More
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-dark mb-4">Book A Tour</h1>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+
+                  <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name">
+
+
+                </div>
+                <div class="col-md-6">
+
+                  <input type="email" class="form-control bg-transparent" id="email" placeholder="Your Email">
+
+
+                </div>
+                <div class="col-md-6">
+
+                  <input type="date" class="form-control bg-transparent datetimepicker-input" id="datetime"
+                    placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+
+
+                </div>
+                <div class="col-md-6">
+
+                  <select class="form-select bg-transparent" id="select1">
+                    <option value="1">Indonesia</option>
+                    <option value="2">USA
+                    </option>
+                    <option value="3">Thailand</option>
+                  </select>
+
+
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control bg-transparent" placeholder="Request" id="message"
+                      style="height: 100px"></textarea>
+
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div id="btn" class="px-5 pt-5">
+                    <button class="btn ab-btn" type="submit">BOOK NOW!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Booking Start -->
+
+
+  <!-- travel-giuid -->
+  <div class="container pt-5" id="travel">
+    <div class="row text-center text-white">
+      <div class="col-lg-8 mx-auto">
+        <h3 class=" mb-0">TRAVEL GUIDE</h3>
+        <div class="travel-hr"></div>
+        <h1 class="text-center text-dark">Meet Our Guide</h1>
+
+      </div>
+    </div>
+  </div><!-- End -->
+  <!--  -->
+  <div class="container">
+    <div class="row text-center pt-3">
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-6 mb-5 ">
+        <div class="bg-white rounded shadow-sm py-5 px-4 team"><img src="./Images/guide1 (1).jpg" alt=""
+            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4 team"><img src="./Images/guide1 (2).jpg" alt=""
+            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4 team"><img src="./Images/guide1 (3).jpg" alt=""
+            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4 team "><img src="./Images/guide4.jpg" alt=""
+            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- End -->
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="mt-5  p-5 ">
+    <div class="row w-100">
+      <div class="col-md-4 ">
+        <h3>About Us</h3>
+        <p class="mt-4" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+          magni quae saepe soluta? Ducimus minima autem dolores quisquam distinctio incidunt modi nihil sit
+          necessitatibus? Neque quidem doloribus recusandae eligendi enim?</p>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div>
+          <h3 class="mt-5 mt-md-0">Navigation</h3>
+
+          <p class="mt-4 text-md-center"><a href="">Home</a></p>
+          <p class=" text-md-center"><a href="">About</a></p>
+          <p class=" text-md-center"><a href="">Services</a></p>
+          <p class=" text-md-center"><a href="">Contact</a><br></p>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3 class="mt-5 mt-md-0">Follow Us</h3>
+        <div class="d-flex mt-4">
+          <input type="text" placeholder="Email" class="form-control">
+          <button class="btn btn-primary ms-3">Subscribe</button>
+        </div>
+        <div class="d-flex mt-4 justify-content-around">
+          <i class="fa-brands fa-facebook-f fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
