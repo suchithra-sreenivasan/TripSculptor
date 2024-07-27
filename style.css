@@ -23,7 +23,7 @@
 /* main  */
 #main{
     height: 100vh;
-    background-image: url(./images/main.jpg);
+    background-image: url(./Images/main.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
