@@ -23,7 +23,7 @@
 /* main  */
 #main{
     height: 100vh;
-    background-image: url(./Images/main.jpg);
+    background-image: url(./images/main.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,14 +110,22 @@
 #img-hr2{
   border: 3px solid var(--z);
   width: 90%;
+  margin-left: 10%;
 }
 #about-hr1{
-  border: 3px solid var(--x);
+  border: 2px solid var(--x);
   width: 40%;
-  margin-left: 10px;
+  margin-left: 30%;
+  
+}
+#aboutus h3{
+  color: var(--p);
+  text-align: center;
 }
 #aboutus h1{
-  color: var(--p);
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-weight: 600;
 }
 #aboutus p{
   color: var(--p);
@@ -151,9 +159,18 @@
 
 /* services */
 #service-hr1{
-  border: 3px solid var(--x);
+  border: 2px solid var(--x);
   width: 20%;
   margin-left: 40%;
+}
+#services h1{
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+}
+.main-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-body .card-title{
   color: #478CCF;
@@ -189,10 +206,19 @@
 #destination{
   background-color: rgb(195, 232, 255);
 }
+#destination h1{
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+}
 .destin-hr{
-  border: 3px solid var(--x);
-  width: 40%;
-  margin-left: 30%;
+  border: 2px solid var(--x);
+  width: 30%;
+  margin-left: 35%;
+}
+.destin-img{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 #destin-btn{
   display: flex;
@@ -215,14 +241,23 @@
 #packages{
  background-color: rgb(191, 247, 245);
 }
+#packages h1{
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+}
+.package-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .package-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   height: 750px;
 }
 .pack-hr{
-  border: 3px solid var(--x);
-  width: 40%;
-  margin-left: 30%;
+  border: 2px solid var(--x);
+  width: 30%;
+  margin-left: 35%;
 }
 .package-item img {
   transition: .5s;
@@ -279,10 +314,14 @@
 #travel h3{
   color: var(--y);
 }
+#travel h1{
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+}
 .travel-hr{
-  border: 3px solid var(--x);
-  width: 40%;
-  margin-left: 30%;
+  border: 2px solid var(--x);
+  width: 39%;
+  margin-left: 31%;
 }
 .social .social-link{
   text-decoration: none;
